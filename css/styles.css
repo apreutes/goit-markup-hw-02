@@ -2,6 +2,11 @@ body {
     background-color: #E5E5E5;
 }
 
+.list {
+    list-style: none;
+}
+
+/* Logo */
 .logo {
     color: #000000;
 }
@@ -10,4 +15,24 @@ body {
 }
 a {
     text-decoration: none;
+}
+
+/* Site nav */
+
+.site-nav a {
+color: #212121;
+}
+
+.site-nav a:hover {
+    color: #2196F3
+}
+
+/* Contact section */
+
+.cont-sect a {
+    color: #757575
+}
+
+.cont-sect a:hover {
+    color:#2196F3
 }
