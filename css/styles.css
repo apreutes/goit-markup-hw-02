@@ -28,13 +28,21 @@ color: #212121;
     color: #2196F3
 }
 
-/* Contact section */
+/* Contacts*/
 
-.cont-sect a {
+.contacts a {
     color: #757575
 }
 
-.cont-sect a:hover,
-.cont-sect a:focus {
+.contacts a:hover,
+.contacts a:focus {
     color:#2196F3
 }
+
+/* Features */
+
+.section-title {
+    color: #212121;
+}
+
+/* Team */
