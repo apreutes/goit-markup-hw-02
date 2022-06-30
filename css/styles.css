@@ -23,7 +23,8 @@ a {
 color: #212121;
 }
 
-.site-nav a:hover {
+.site-nav a:hover,
+.site-nav a:focus {
     color: #2196F3
 }
 
@@ -33,6 +34,7 @@ color: #212121;
     color: #757575
 }
 
-.cont-sect a:hover {
+.cont-sect a:hover,
+.cont-sect a:focus {
     color:#2196F3
 }
