@@ -1,3 +1,9 @@
+:root {
+    --primary-text-color:#212121;
+    --accent-color:#2196F3;
+    --text-color: #757575;
+}
+
 body {
     background-color: #E5E5E5;
 }
@@ -6,8 +12,10 @@ body {
     list-style: none;
 }
 
+/* Section */
+
 .section-title {
-    color: #212121;
+    color: var(--primary-text-color);
 }
 
 /* Logo */
@@ -15,7 +23,7 @@ body {
     color: #000000;
 }
 .icon {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 a {
     text-decoration: none;
@@ -24,33 +32,58 @@ a {
 /* Site nav */
 
 .site-nav a {
-color: #212121;
+color: var(--primary-text-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-    color: #2196F3
+    color: var(--accent-color);
 }
 
 /* Contacts*/
 
 .contacts a {
-    color: #757575
+    color: var(--text-color);
 }
 
 .contacts a:hover,
 .contacts a:focus {
-    color:#2196F3
+    color: var(--accent-color);
 }
 
 /* Hero */
 
 .hero-title {
-    color: #FFFFFF
+    color: #FFFFFF;
 }
 
 /* Features */
 
+.features-list .title {
+    color: var(--primary-text-color);
+}
+
+.features-list .desc {
+    color: var(--text-color);
+}
+
+/* Work */
+
 
 
 /* Team */
+.team-list .title {
+    color: var(--primary-text-color);
+}
+
+.team-list .subtitle {
+    color: var(--text-color);
+}
+
+/* Projects */
+.projects-list .title {
+    color: var(--primary-text-color);
+}
+.projects-list .subtitle {
+    color: var(--text-color);
+}
