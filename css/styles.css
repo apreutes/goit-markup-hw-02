@@ -2,12 +2,12 @@
     --primary-text-color:#212121;
     --accent-color:#2196F3;
     --text-color: #757575;
-    --hero-color: #FFFFFF;
+    --primary-white-color: #FFFFFF;
 
 }
 
 body {
-    background-color: var(--hero-color);
+    background-color: var(--primary-white-color);
 }
 
 .list {
@@ -42,6 +42,10 @@ color: var(--primary-text-color);
     color: var(--accent-color);
 }
 
+.site-nav .link-current {
+    color: var(--accent-color);
+}
+
 /* Contacts*/
 
 .contacts a {
@@ -56,12 +60,12 @@ color: var(--primary-text-color);
 /* Hero */
 
 .hero-title {
-    color: var(--hero-color);
+    color: var(--primary-white-color);
 }
 
 /* Button */
 .primary-button {
-    color: var(--hero-color);
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
     border: none;
 }
@@ -101,7 +105,7 @@ color: var(--primary-text-color);
 
 .button-list .button:hover,
 .button-list .button:focus {
-    color: var(--hero-color);
+    color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
 
