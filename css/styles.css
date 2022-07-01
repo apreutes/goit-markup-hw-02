@@ -2,10 +2,12 @@
     --primary-text-color:#212121;
     --accent-color:#2196F3;
     --text-color: #757575;
+    --hero-color: #FFFFFF;
+
 }
 
 body {
-    background-color: #E5E5E5;
+    background-color: var(--hero-color);
 }
 
 .list {
@@ -54,7 +56,14 @@ color: var(--primary-text-color);
 /* Hero */
 
 .hero-title {
-    color: #FFFFFF;
+    color: var(--hero-color);
+}
+
+/* Button */
+.primary-button {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+    border: none;
 }
 
 /* Features */
@@ -79,6 +88,23 @@ color: var(--primary-text-color);
 .team-list .subtitle {
     color: var(--text-color);
 }
+
+/* PORTFOLIO */
+
+/* Filter */
+
+.button-list .button {
+    color: var(--primary-text-color);
+    background-color: #F5F4FA;
+    border: none;
+}
+
+.button-list .button:hover,
+.button-list .button:focus {
+    color: var(--hero-color);
+    background-color: var(--accent-color);
+}
+
 
 /* Projects */
 .projects-list .title {
