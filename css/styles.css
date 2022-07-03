@@ -33,7 +33,7 @@ a {
 
 /* Site nav */
 
-.site-nav a {
+.site-nav-item a {
 color: var(--primary-text-color);
 }
 
@@ -42,7 +42,7 @@ color: var(--primary-text-color);
     color: var(--accent-color);
 }
 
-.site-nav .link-current {
+.site-nav-item .link-current {
     color: var(--accent-color);
 }
 
@@ -56,6 +56,8 @@ color: var(--primary-text-color);
 .contacts a:focus {
     color: var(--accent-color);
 }
+
+/* Стили для Студии */
 
 /* Hero */
 
@@ -76,7 +78,7 @@ color: var(--primary-text-color);
     color: var(--primary-text-color);
 }
 
-.features-list .desc {
+.features-list .subtitle {
     color: var(--text-color);
 }
 
@@ -85,6 +87,7 @@ color: var(--primary-text-color);
 
 
 /* Team */
+
 .team-list .title {
     color: var(--primary-text-color);
 }
@@ -93,7 +96,7 @@ color: var(--primary-text-color);
     color: var(--text-color);
 }
 
-/* PORTFOLIO */
+/* Стили для Портфолио*/
 
 /* Filter */
 
