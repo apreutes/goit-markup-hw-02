@@ -6,30 +6,30 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     background-color: var(--primary-white-color);
-}
+    
+    font-family: 'Roboto', sans-serif;
 
-.list {
-    list-style: none;
-}
-
-/* Section */
-
-.section-title {
-    color: var(--primary-text-color);
 }
 
 /* Logo */
 .logo {
     color: #000000;
 }
+
 .icon {
     color: var(--accent-color);
 }
-a {
-    text-decoration: none;
+
+.logo, .icon {
+font-family: 'Raleway', sans-serif
 }
+
 
 /* Site nav */
 
@@ -100,14 +100,14 @@ color: var(--primary-text-color);
 
 /* Filter */
 
-.button-list .button {
+.filter .button {
     color: var(--primary-text-color);
     background-color: #F5F4FA;
     border: none;
 }
 
-.button-list .button:hover,
-.button-list .button:focus {
+.filter .button:hover,
+.filter .button:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
