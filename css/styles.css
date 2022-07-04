@@ -6,15 +6,12 @@
 
 }
 
-a {
-    text-decoration: none;
-}
-
 body {
     background-color: var(--primary-white-color);
     
     font-family: 'Roboto', sans-serif;
 
+    letter-spacing: 0.03em;
 }
 
 /* Logo */
@@ -22,12 +19,16 @@ body {
     color: #000000;
 }
 
-.icon {
+.accent {
     color: var(--accent-color);
 }
 
-.logo, .icon {
-font-family: 'Raleway', sans-serif
+.logo, .accent {
+font-family: 'Raleway', sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+text-decoration: none;
 }
 
 
@@ -35,10 +36,15 @@ font-family: 'Raleway', sans-serif
 
 .site-nav-item a {
 color: var(--primary-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav-item a:hover,
+.site-nav-item a:focus {
     color: var(--accent-color);
 }
 
@@ -50,6 +56,11 @@ color: var(--primary-text-color);
 
 .contacts a {
     color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 
 .contacts a:hover,
@@ -59,27 +70,66 @@ color: var(--primary-text-color);
 
 /* Стили для Студии */
 
+.features-title, 
+.work-title, 
+.team-title {
+    color: var(--primary-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+/* Маркированный список */
+.site-nav-item,
+.contacts-item,
+.features-item,
+.work-item,
+.team-item {
+    list-style-type: none;
+}
+
 /* Hero */
 
 .hero-title {
     color: var(--primary-white-color);
+    background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;;
 }
+
 
 /* Button */
 .primary-button {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
     border: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* Features */
 
 .features-list .title {
     color: var(--primary-text-color);
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-list .subtitle {
     color: var(--text-color);
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 /* Work */
@@ -90,11 +140,19 @@ color: var(--primary-text-color);
 
 .team-list .title {
     color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
 
 .team-list .subtitle {
     color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
 }
+
 
 /* Стили для Портфолио*/
 
