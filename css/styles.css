@@ -14,6 +14,8 @@ body {
     letter-spacing: 0.03em;
 }
 
+/* Header */
+
 /* Logo */
 .logo {
     color: #000000;
@@ -92,7 +94,8 @@ text-decoration: none;
 
 .hero-title {
     color: var(--primary-white-color);
-    background-color: #2F303A;
+    background-color: #2F303A; 
+    /* поставила цвет фона, чтобы было видно заголовок, уберу потом */
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -153,15 +156,26 @@ text-decoration: none;
     text-align: center;
 }
 
-
 /* Стили для Портфолио*/
+
+/* Маркированный список */
+.filter-item,
+.projects-item {
+    list-style-type: none;
+}
 
 /* Filter */
 
 .filter .button {
     color: var(--primary-text-color);
+    font-family: inherit;
     background-color: #F5F4FA;
     border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: inherit;
+    text-align: center;
 }
 
 .filter .button:hover,
@@ -174,7 +188,37 @@ text-decoration: none;
 /* Projects */
 .projects-list .title {
     color: var(--primary-text-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
 .projects-list .subtitle {
     color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.88;
 }
+
+/* Footer */
+
+.address-item {
+    list-style-type: none;
+}
+
+.address-list a {
+text-decoration: none;
+background-color: #2F303A;
+/* поставила цвет фона, чтобы было видно текст, уберу потом */ 
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+}
+
+.mail-link, .tel-link {
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+.address-link {
+    color: var(--primary-white-color);
+}
+

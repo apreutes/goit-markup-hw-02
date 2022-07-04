@@ -42,14 +42,15 @@
     <main>
       <section class="projects">
         <h1 class="projects-title">Портфолио</h1>
+        <!-- заголовок скрыть потом -->
 
         <!--Фильтр-->
         <ul class="filter">
-          <li><button type="button" class="button">Все</button></li>
-          <li><button type="button" class="button">Веб-сайты</button></li>
-          <li><button type="button" class="button">Приложения</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
+          <li class="filter-item"><button type="button" class="button">Все</button></li>
+          <li class="filter-item"><button type="button" class="button">Веб-сайты</button></li>
+          <li class="filter-item"><button type="button" class="button">Приложения</button></li>
+          <li class="filter-item"><button type="button" class="button">Дизайн</button></li>
+          <li class="filter-item"><button type="button" class="button">Маркетинг</button></li>
         </ul>
 
         <!--Список проджектов-->
@@ -136,6 +137,7 @@
         <ul class="address-list">
           <li class="address-item">
             <a
+              class="address-link"
               href="https://goo.gl/maps/hUE8pbDkT49WUw5bA"
               target="_blank"
               rel="noopener noreferrer"
@@ -143,10 +145,10 @@
             >
           </li>
           <li class="address-item">
-            <a href="mailto:info@example.com">info@example.comm</a>
+            <a class="mail-link" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li class="address-item">
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="tel-link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
