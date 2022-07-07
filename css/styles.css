@@ -122,12 +122,13 @@ letter-spacing: 0.02em;
 
 /* Features */
 
-.features-list .features-subtitle {
+.features-subtitle {
     line-height: 1.14;
     text-transform: uppercase;
+    font-size: inherit;
 }
 
-.features-list .features-text {
+.features-text {
     color: var(--text-color);
     line-height: 1.71;
 }
