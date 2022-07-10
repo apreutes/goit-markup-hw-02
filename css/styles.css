@@ -4,6 +4,7 @@
     --text-color: #757575;
     --primary-white-color: #FFFFFF;
     --secondary-text-color: rgba(255, 255, 255, 0.6);    --back-color: #2F303A;
+    --secondary-back-color: #F5F4FA;
 
 }
 
@@ -16,7 +17,7 @@ body {
 }
 
 /* Маркированные списки и линки */
-.item {
+.list {
     list-style-type: none;
 }
 .link {
@@ -136,6 +137,10 @@ letter-spacing: 0.02em;
 /* Work */
 
 /* Team */
+
+.team {
+    background-color: var(--secondary-back-color);
+}
 
 .team-subtitle {
     font-weight: 500;
